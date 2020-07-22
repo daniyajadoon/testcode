@@ -1,0 +1,98 @@
+@charset "utf-8";
+#navbar {
+	width:auto;
+	
+}
+#navbar #holder{
+	height:44px;
+	border-bottom:1px solid #000;
+}
+
+#navbar #holder ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+#navbar #holder ul li a{
+	text-decoration:none;
+	float:left;
+	margin-right:3px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	color:#F03;
+	border:1px groove #F36;
+	border-bottom:none;
+	padding:10px;
+	text-align:center;
+	display:block;
+	background:#FCC;
+	border-radius-topleft:15px;
+	border-radius-topright:15px;
+	
+
+}
+#navbar #holder ul li a:hover{
+	background:#9FC;
+	text-shadow: px 1px 1px #000000;
+}
+
+#holder ul li a#onlink{
+	background:#FFF;
+	color:#606;
+	border-bottom:2px solid #F06;
+	
+}
+
+#holder ul li a#onlink:hover{
+	background:#FC9;
+	color:#F03;
+	text-shadow:1px 1px 1px #003300;
+	
+}
+
+
+
+
+.externalTable
+{
+	border-collapse:collapse;
+	border:outset #CCC;
+	
+	}
+.insertTable
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	border-collapse:collapse;
+	
+	}
+	.inputboxes
+	{
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:12px;
+		border: 2px solid #F06;
+		}
+		.h2
+		{
+			font-family:Verdana, Geneva, sans-serif;
+			font-size:20px;
+			font-weight:bold;
+			color:#F06;
+		}
+		.color
+		{
+	
+			color:#F06;
+		}
+		
+			.mouseover
+			{ background-color:#FF0;
+			text-decoration:none;
+			color:#F39;
+				}
+				.mouseout
+			{ background-color:#FFF;
+			text-decoration:none;
+			color:#F39;
+				}
+
